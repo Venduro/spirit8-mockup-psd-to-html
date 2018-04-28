@@ -1,14 +1,32 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+  font-weight: 100;
   text-transform: uppercase;
+}
+
+p {
+  margin: 15px auto;
 }
 
 span.bold {
   font-weight: bold;
+}
+
+.meet-the-team,
+.our-services,
+.our-clients,
+.our-work {
+  text-align: center;
 }
 
 .background {
@@ -23,7 +41,6 @@ span.bold {
   background-image: url("../images/slide1.jpg");
 }
 
-
 .meet-the-team-img {
   width: 100px;
   height: 100px !important;
@@ -37,43 +54,47 @@ span.bold {
   padding: 10px;
 }
 
-.glyphicon-arrow-down:focus, .glyphicon-arrow-down:hover {
+.glyphicon-arrow-down:focus,
+.glyphicon-arrow-down:hover {
   color: #fcac45;
   border-color: #fcac45;
 }
 
 .carousel {
-    position: relative;
-    top: 0;
+  position: relative;
+  top: 0;
 }
 
 .navbar {
-    position: absolute;
-    top: 30px;
-    z-index: 10;
-    width: 80%;
+  position: absolute;
+  top: 30px;
+  z-index: 10;
+  width: 80%;
 }
 
 .navbar-inverse {
-    background-color: transparent;
-    border-color: transparent;
+  background-color: transparent;
+  border-color: transparent;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-    color: #fff;
-    border-bottom: 5px solid;
-    border-color: transparent;
-    cursor: pointer;
+  color: #fff;
+  border-bottom: 5px solid;
+  border-color: transparent;
+  cursor: pointer;
 }
 
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-    background-color: transparent;
-    border-color: #fcac45;
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+  background-color: transparent;
+  border-color: #fcac45;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff;
-    background-color: transparent;
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: transparent;
 }
 
 #spirit8-banner-img-text {
@@ -90,18 +111,20 @@ span.bold {
   margin-bottom: 50px;
 }
 
-ol, ul {
-    list-style-image: url('../images/bullet_point.png');
-    margin-top: 0;
-    margin-bottom: 10px;
-    padding-left: 20px;
+ol,
+ul {
+  list-style-image: url('../images/bullet_point.png');
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 20px;
 }
 
 .btn-group-lg>.btn, .btn-lg {
-    border: 2px solid;
+  border: 2px solid;
 }
 
-.change_to_white {
+.meet-the-team h1,
+.our-clients h1 {
   color: #fff;
 }
 
@@ -137,6 +160,45 @@ Home
 .meet-the-team .thumbnail .caption {
   color: #fff;
   text-align: center;
+}
+
+.italicized_content {
+  font-style: italic;
+}
+
+.our-services .thumbnail {
+  border: 0;
+  margin:0;
+}
+
+.our-services .glyphicon {
+  font-size: 50px;
+  padding: 20px;
+  border: 5px solid #fcac45;
+  border-radius: 50%;
+}
+
+@media (min-width: 1200px) {
+  .our-services .col-lg-3 {
+    margin-top: 40px;
+  }
+}
+
+.our-clients {
+  background-color: #0b0b0b;
+}
+
+.our-clients .slide-1 {
+  margin: 75px auto;
+}
+
+.our-clients .slide-1 img {
+  margin: 12px;
+  max-height: 21px;
+}
+
+.our-work .img-grid>div {
+  padding: 15px;
 }
 /*=================================
 Footer
